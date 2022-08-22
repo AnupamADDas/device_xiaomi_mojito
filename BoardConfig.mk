@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/mojito
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
+BUILD_BROKEN_DUP_RULES := true
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
